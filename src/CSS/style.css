@@ -42,7 +42,7 @@ header a {
 }
 
 #logo {
-    margin-left: 5px;
+    margin-left: 35px;
     height: 45px;
 }
 
@@ -79,10 +79,99 @@ nav {
 
 /**************** First section ***************/
 .first {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 100%;
     height: auto;
+    padding-left: 10px;
 }
+.title {
+    padding:2px;
+}
+
+.title h1 {
+    padding:10px;
+}
+.title p {
+    padding-left: 5px;
+}
+
+form {
+    padding-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.search,
+.btn {
+    height: 50px;
+    width: 120px;
+}
+
+.btn {
+    color: white;
+    background-color:#0065FC ;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.search {
+    width: 180px;
+    text-align: end;
+    font-weight: bold;
+    padding-right: 5px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: row;
+    border: transparent;
+    margin-top: 20px;
+    position: relative;
+}
+
+fieldset h3 {
+    padding-top: 10px;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+
+.select-custom{
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 50px;
+    background-color: white;
+    width: 120px;
+    height: 40px;
+    text-align: end;
+    padding:2px ;
+    margin-right: 10px;
+    padding-right: 10px;
+}
+
+
+#pets {
+    width: 180px;
+}
+
+#economy:before {
+    font-family: "Font Awesome 5 Solid";
+    display: inline-block;
+    content: "\f53a";
+    font-weight: 900;
+}
+
+#span-custom :before {
+    font-family: "Font Awesome 5 Free";
+    display: inline-block;
+    content: "\f05a";
+    font-weight: 900;
+}
+
+
+
 
 /**************** Main ***************/
 main {
