@@ -5,38 +5,76 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Link CSS -->
     <link rel="stylesheet" href="./src/CSS/style.css">
+
+    <!-- link fontawesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;500;800&display=swap" rel="stylesheet">
 
 
 
   <body>
     <!--Start Header-->
     <header>
-      <h1>Header</h1>
+      <a href="#"><img id="logo" src="./src/image/logo/Booki.png" alt=" logo du site  Booki"></a>
+      <nav>
+        <ul class ="list-header">
+          <li><a class="link-header" href="#hosting">Hébergements</a></li>
+          <li><a class="link-header" href="#activity">Activités</a></li>
+        </ul>
+      </nav>
     </header>
     <!--End Header-->
 
     <!--Start First section-->
-    <section class="first">
-      <h1>First section</h1>
+    <section id="hosting" class="first">
+      <div>
+        <h1>Trouvez votre hébergements pour des vacances de rêve </h1>
+        <p>En plein cenntre ville ou en pleine nature</p>
+      </div>
+      <form action="">
+        <input class="" type="search" placeholder="Marseille, France" aria-label="Search">
+        <button class="" type="submit">Search</button>
+      </form>
+      <form action="">
+        <fieldset>
+          <h3>Filtres</h3>
+          <label for=""></label>
+          <input type="text" placeholder="économique">
+          <label for=""></label>
+          <input type="text" placeholder="Familial">
+          <label for=""></label>
+          <input type="text" placeholder="Romantique">
+          <label for=""></label>
+          <input type="text" placeholder="Animaux autorisés">
+        </fieldset>
+      </form>
+      <span>Plus de 500 logements sont disponibles dans cette ville</span>
+
     </section>
     <!--End First section-->
 
     <!--Start Main-->
     <main>
-      <h1>Main</h1>
+      <h2>Hébergements à Marseille</h2>
     </main>
     <!--End Main-->
 
     <!--Start Second section-->
-    <section class="second">
-      <h1>Second section</h1>
+    <section id="activity" class="second">
+      <h2>Activités à Marseille</h2>
     </section>
     <!--End Second section-->
 
     <!--Start Footer-->
     <footer>
-      <h1>Footer</h1>
+      <h2>Footer</h2>
     </footer>
     <!--End Footer-->
   </body>
