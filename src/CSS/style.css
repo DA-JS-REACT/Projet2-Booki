@@ -126,12 +126,11 @@ fieldset {
     flex-direction: row;
     border: transparent;
     margin-top: 20px;
-    position: relative;
 }
 
 fieldset h3 {
     padding-top: 10px;
-    margin-right: 20px;
+    margin-right: 25px;
     vertical-align: middle;
 }
 
@@ -143,32 +142,43 @@ fieldset h3 {
     appearance: none;
     border-radius: 50px;
     background-color: white;
-    width: 120px;
+    width: 140px;
     height: 40px;
     text-align: end;
     padding:2px ;
     margin-right: 10px;
     padding-right: 10px;
+    position: relative;
+    cursor: pointer;
+    z-index: 5;
 }
 
 
 #pets {
     width: 180px;
 }
+.top {
+    position: relative;
+}
+.wrapper {
+    width: 20px;
+    position: absolute;
+    z-index: 11;
+    background-color: #DEEBFF;
+    border-radius: 50px ;
+    height: 38px;
+    width: 40px;
+    left:-1%;
+    top:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+i {
+    color:#0065FC ;
 
-#economy:before {
-    font-family: "Font Awesome 5 Solid";
-    display: inline-block;
-    content: "\f53a";
-    font-weight: 900;
 }
 
-#span-custom :before {
-    font-family: "Font Awesome 5 Free";
-    display: inline-block;
-    content: "\f05a";
-    font-weight: 900;
-}
 
 
 

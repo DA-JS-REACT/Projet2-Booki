@@ -44,34 +44,47 @@
         <button class="btn" type="submit">Rechercher</button>
         <fieldset>
           <h3>Filtres</h3>
+          <div class="top">
+            <div class="wrapper">
+              <i class="fas fa-money-bill-wave"></i>
+            </div>
+              <select class="select-custom" name="economy" id="economy">
+                <option value="economy" selected>Économique</option>
+                <option value="middle budget">budget moyen</option>
+                <option value="expansive" >haut budget</option>
+              </select>
+          </div>
+          <div class="top">
+            <div class="wrapper">
+              <i class="fas fa-child"></i>
+            </div>
+            <select class="select-custom" name="family" id="family">
+              <option value="family" selected>Familial</option>
+              <option value="only">seul /e</option>
+              <option value="duo">en couple</option>
+            </select>
 
-          <select class="select-custom" name="economy" id="economy">
-            <option value="economy" selected>Économique</option>
-            <option value="middle budget">budget moyen</option>
-            <option value="expansive" >haut budget</option>
-          </select>
-          <select class="select-custom" name="family" id="family">
-            <option value="family" selected>Familial</option>
-            <option value="only">seul /e</option>
-            <option value="duo">en couple</option>
-          </select>
-          <select class="select-custom" name="genre" id="genre">
-            <option value="romantic" selected>Romantique</option>
-            <option value="fun">fun</option>
-            <option value="tranquility" >tranquil</option>
-          </select>
-          <select class="select-custom" name="pets" id="pets">
-            <option value="allow" selected>Animaux autorisés</option>
-            <option value="not allow">Animaux non autorisés</option>
-          </select>
-          <!-- <label for="economy"><i class="fas fa-money-bill-wave"></i></label>
-          <input type="text" name="economy" id="economy" placeholder="économique">
-          <label for=""></label>
-          <input type="text" placeholder="Familial">
-          <label for=""></label>
-          <input type="text" placeholder="Romantique">
-          <label for=""></label>
-          <input type="text" placeholder="Animaux autorisés"> -->
+          </div>
+          <div class="top">
+            <div class="wrapper">
+              <i class="fas fa-heart"></i>
+            </div>
+            <select class="select-custom" name="genre" id="genre">
+              <option value="romantic" selected>Romantique</option>
+              <option value="fun">fun</option>
+              <option value="tranquility" >tranquile</option>
+            </select>
+
+          </div>
+          <div class="top">
+            <div class="wrapper">
+              <i class="fas fa-dog"></i>
+            </div>
+            <select class="select-custom" name="pets" id="pets">
+              <option value="allow" selected>Animaux autorisés</option>
+              <option value="not allow">Animaux non autorisés</option>
+            </select>
+          </div>
       </fieldset>
       </form>
       <span id="span-custom">Plus de 500 logements sont disponibles dans cette ville</span>
