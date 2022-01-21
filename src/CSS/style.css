@@ -83,6 +83,7 @@ nav {
     width: 100%;
     height: auto;
     padding-left: 10px;
+    margin-bottom: 5px;
 }
 .title {
     padding:2px;
@@ -140,6 +141,7 @@ fieldset h3 {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
+    border-left: transparent;
     border-radius: 50px;
     background-color: white;
     width: 140px;
@@ -157,7 +159,7 @@ fieldset h3 {
 #pets {
     width: 180px;
 }
-.top {
+.filter {
     position: relative;
 }
 .wrapper {
@@ -168,8 +170,8 @@ fieldset h3 {
     border-radius: 50px ;
     height: 38px;
     width: 40px;
-    left:-1%;
-    top:0;
+    left:0%;
+    top:2%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -177,6 +179,24 @@ fieldset h3 {
 i {
     color:#0065FC ;
 
+}
+.info {
+    margin-top: 3px;
+}
+#info  {
+    border: 2px solid rgba(0, 0, 0, 0.103);
+    background-color: transparent;
+    width: 20px;
+    height: 15px;
+    border-radius: 50px;
+    text-align: center;
+    padding-top: 2px;
+    font-size: small;
+}
+
+#span-custom {
+    margin-left: 10px;
+    padding-top: 5px;
 }
 
 
@@ -187,8 +207,109 @@ i {
 main {
     border: 1px solid black;
     width: 100%;
-    height: 100px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
 }
+
+.house,
+.top {
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    height: auto;
+}
+.house {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin-right: 5px;
+    margin-left: 20px;
+}
+
+.title-card ,
+.div-card--more {
+    padding: 5px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.div-card--more {
+    font-size: larger;
+}
+
+.div-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.link-card {
+    text-align: center;
+}
+
+.top {
+    width: 20%;
+}
+
+
+
+.card {
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    width: 300px;
+    max-height: auto;
+    padding: 5px;
+    text-align: start;
+}
+
+.img {
+    width: auto;
+    height: 170px;
+    border-radius: 20px 20px 0px 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+
+.img-first {
+    background-image:url('/src/image/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg') ;
+}
+
+.img-second {
+    background-image:url('/src/image/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg') ;
+}
+
+.img-third {
+    background-image:url('/src/image/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg') ;
+}
+
+.img-fourth {
+    background-image:url('/src/image/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg') ;
+    background-position: center;
+}
+
+.img-fifth {
+    background-image:url('/src/image/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg') ;
+}
+
+.img-sixth {
+    background-image:url('/src/image/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg') ;
+    background-position: center;
+}
+.card-text {
+    padding: 2px;
+    margin-left:10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.card span {
+    padding-bottom: 20px;
+}
+
 /**************** Second section ***************/
 .second {
     border: 1px solid black;
