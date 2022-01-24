@@ -41,6 +41,7 @@ header {
 }
 header a {
     padding:10px;
+    padding-top: 15px;
 }
 
 #logo {
@@ -67,13 +68,19 @@ nav {
     margin-right: 5px;
 }
 
+.list-header li {
+    padding-top: 25px;
+}
+
+.list-header li:hover {
+    border-top: 1px solid #0065FC;
+
+}
+
 .link-header:hover {
     color:#0065FC;
-    border-top: 1px solid #0065FC;
 }
-.link-header:visited {
-    color:#0065FC;
-}
+
 
 
 
@@ -229,7 +236,7 @@ i {
 
 /**************** Main ***************/
 main {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 100%;
     height: auto;
     display: flex;
@@ -245,7 +252,7 @@ main {
     height: auto;
 }
 .house {
-    width: 65%;
+    width: 75%;
     display: flex;
     flex-direction: column;
     margin-right: 5px;
@@ -264,50 +271,78 @@ main {
 }
 
 .div-card {
+    width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     padding: 10px;
+    margin: auto;
+
 }
 
+.div-title {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+
 .link-card {
-    text-align: center;
+    width: 20%;
+    max-height: auto;
+    margin-bottom: 50px;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    padding: 5px;
+    box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.151);
+}
+
+.link-card :hover {
+    color:#0065FC;
+}
+
+.link-card--popular {
+    width: 90%;
+    max-height: auto;
+    margin-top: 50px;
+    margin-bottom: 0;
 }
 
 .top {
-    width: 30%;
+    width: 25%;
     margin-left: 20px;
 }
 
-.top a:nth-of-type(1) {
-    margin-top: 25px;
-}
-
-
-
 .card {
-    background-color: white;
-    border-radius: 20px 20px 20px 20px;
-    width: 300px;
-    max-height: auto;
-    padding: 5px;
+    width: 100%;
+    height: auto;
     text-align: start;
+}
+.card-body {
+    margin-bottom: 15px;
 }
 
 .popular-contain-card {
     width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: start;
 }
+
+.popular-contain-card a:first-child {
+    margin-top: 0px;
+}
+
 
 .card-popular {
     width: 90%;
+    height: auto;
     display: flex;
     flex-direction: row;
-    margin-bottom: 15px;
 }
 
 .img {
-    width: auto;
-    height: 170px;
+    width: 100%;
+    height: 160px;
     border-radius: 20px 20px 0px 0px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -316,8 +351,9 @@ main {
 
 .img-popular {
     width: 200px;
-    height: 170px;
+    height: 150px;
     border-radius: 20px 0px 0px 20px;
+    margin-bottom: 0;
 }
 
 .img-first {
@@ -366,23 +402,71 @@ main {
     margin-bottom: 5px;
 }
 
-.card span {
-    padding-bottom: 20px;
+.card-text-popular-contain {
+    height: 100%;
+    margin-left: 10px;
 }
-
-.popular-title i{
-    color:black;
+.card-text--popular {
+    margin-bottom: 50px;
+}
+.popular-title {
     width: 100%;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
+
+.icon-aside i {
+    color:black;
+    padding-top: 13px;
+}
+
+
+
+
+
 
 /**************** Second section ***************/
 .second {
     border: 1px solid black;
     width: 100%;
-    height: 100px;
+    height: auto;
 }
+
+.section-activity {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+.div-activity {
+    width: 50%;
+    height: auto;
+}
+
+.section-activity {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.figure-activity {
+    border: 1px solid black;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.img-activity {
+    width: 50%;
+    height: 350px;
+    /* position: absolute;
+    left: 20%; */
+     object-fit: cover;
+}
+
+
 /**************** Footer ***************/
 footer {
     border: 1px solid black;
