@@ -106,22 +106,42 @@ form {
 
 .search,
 .btn {
-    height: 50px;
-    width: 120px;
+    height: 43px;
+    width: 100px;
 }
 
 .btn {
     color: white;
     background-color:#0065FC ;
+    border: 1px solid #0065FC ;
+    font-weight: bold;
     border-radius: 0px 10px 10px 0px;
+    position: absolute;
+}
+
+.div-search {
+    border: 1px solid #F2F2F2;
+    background-color:#F2F2F2 ;
+    border-radius: 10px 0px 0px 10px;
+    height: 41px;
+    width: 40px;
+    position: absolute;
+    left:0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .search {
     width: 180px;
-    text-align: end;
     font-weight: bold;
+    padding-left: 10px;
     padding-right: 5px;
-    border-radius: 10px 0px 0px 10px;
+    border:1px solid #F2F2F2;
+    border-left: transparent;
+    border-right: transparent;
+    position: relative;
+    margin-left: 40px;
 }
 
 fieldset {
@@ -143,6 +163,7 @@ fieldset h3 {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
+    border:1px solid #d3d3d3;
     border-left: transparent;
     border-radius: 50px;
     background-color: white;
@@ -161,7 +182,8 @@ fieldset h3 {
 #pets {
     width: 180px;
 }
-.filter {
+.filter,
+.search-contain {
     position: relative;
 }
 .wrapper {
@@ -170,7 +192,7 @@ fieldset h3 {
     z-index: 11;
     background-color: #DEEBFF;
     border-radius: 50px ;
-    height: 38px;
+    height: 39px;
     width: 40px;
     left:0%;
     top:2%;
