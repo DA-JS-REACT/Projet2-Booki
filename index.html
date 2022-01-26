@@ -52,29 +52,32 @@
           </div>
           <!-- Filter with select  -->
           <fieldset>
-            <h3>Filtres</h3>
-            <div class="filter">
-              <div class="wrapper">
-                <i class="fas fa-money-bill-wave"></i>
+            <div class="fieldset-filter--first">
+              <h3>Filtres</h3>
+              <div class="filter">
+                <div class="wrapper">
+                  <i class="fas fa-money-bill-wave"></i>
+                </div>
+                  <select class="select-custom" name="economy" id="economy">
+                    <option value="economy" selected>Économique</option>
+                    <option value="middle budget">budget moyen</option>
+                    <option value="expansive" >haut budget</option>
+                  </select>
               </div>
-                <select class="select-custom" name="economy" id="economy">
-                  <option value="economy" selected>Économique</option>
-                  <option value="middle budget">budget moyen</option>
-                  <option value="expansive" >haut budget</option>
+              <div class="filter">
+                <div class="wrapper">
+                  <i class="fas fa-child"></i>
+                </div>
+                <select class="select-custom" name="family" id="family">
+                  <option value="family" selected>Familial</option>
+                  <option value="only">seul /e</option>
+                  <option value="duo">en couple</option>
                 </select>
-            </div>
-            <div class="filter">
-              <div class="wrapper">
-                <i class="fas fa-child"></i>
+  
               </div>
-              <select class="select-custom" name="family" id="family">
-                <option value="family" selected>Familial</option>
-                <option value="only">seul /e</option>
-                <option value="duo">en couple</option>
-              </select>
-
             </div>
-            <div class="filter">
+            <div class="fieldset-filter--second">
+              <div class="filter">
               <div class="wrapper">
                 <i class="fas fa-heart"></i>
               </div>
@@ -94,6 +97,8 @@
                 <option value="not allow">Animaux non autorisés</option>
               </select>
             </div>
+            </div>
+            
           </fieldset>
         </form>
         <!-- End Form -->
