@@ -49,11 +49,14 @@
             <div class="div-search"><i class="fas fa-map-marker-alt"></i></div>
             <input class="search" type="search" value="Marseille, France" aria-label="search">
             <button class="btn" type="submit">Rechercher</button>
+            <button class="btn btn-hidden" type="submit"><i class="fas fa-search"></i></button>
           </div>
           <!-- Filter with select  -->
           <fieldset>
             <div class="fieldset-filter--first">
               <h3>Filtres</h3>
+            </div>
+            <div class="fieldset-filter--second">
               <div class="filter">
                 <div class="wrapper">
                   <i class="fas fa-money-bill-wave"></i>
@@ -76,29 +79,29 @@
   
               </div>
             </div>
-            <div class="fieldset-filter--second">
+            <div class="fieldset-filter--third">
               <div class="filter">
-              <div class="wrapper">
-                <i class="fas fa-heart"></i>
+                <div class="wrapper">
+                  <i class="fas fa-heart"></i>
+                </div>
+                <select class="select-custom" name="genre" id="genre">
+                  <option value="romantic" selected>Romantique</option>
+                  <option value="fun">fun</option>
+                  <option value="tranquility" >tranquile</option>
+                </select>
+  
               </div>
-              <select class="select-custom" name="genre" id="genre">
-                <option value="romantic" selected>Romantique</option>
-                <option value="fun">fun</option>
-                <option value="tranquility" >tranquile</option>
-              </select>
+              <div class="filter">
+                <div class="wrapper">
+                  <i class="fas fa-dog"></i>
+                </div>
+                <select class="select-custom" name="pets" id="pets">
+                  <option value="allow" selected>Animaux autorisés</option>
+                  <option value="not allow">Animaux non autorisés</option>
+                </select>
+              </div>
+            </div>
 
-            </div>
-            <div class="filter">
-              <div class="wrapper">
-                <i class="fas fa-dog"></i>
-              </div>
-              <select class="select-custom" name="pets" id="pets">
-                <option value="allow" selected>Animaux autorisés</option>
-                <option value="not allow">Animaux non autorisés</option>
-              </select>
-            </div>
-            </div>
-            
           </fieldset>
         </form>
         <!-- End Form -->
@@ -236,8 +239,8 @@
               <article class="card card-popular">
                 <div class="img img-popular  img-second--popular">
                 </div>
-                <div class=" card-body card-text-popular-contain">
-                  <h4 class="card-text">Au coeur de l'eau <br/> Chambre d'hôtes</h4>
+                <div class=" card-body card-text-popular-contain card-text--middle">
+                  <h4 class="card-text ">Au coeur de l'eau Chambre d'hôtes</h4>
                   <p class="card-text card-text--popular">Nuit à partir de <strong>71 €</strong></p>
                   <span class="card-text"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></span>
                 </div>
