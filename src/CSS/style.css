@@ -171,6 +171,7 @@ form {
 }
 
 fieldset {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     border: transparent;
@@ -178,8 +179,6 @@ fieldset {
     padding: 0;
 }
 .fieldset-filter--first {
-    display: flex;
-    flex-direction: row;
     width: 50%;
 }
 .fieldset-filter--second {
@@ -340,6 +339,7 @@ main {
     border-radius: 20px 20px 20px 20px;
     padding: 5px;
     box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.151);
+    overflow: hidden;
 }
 .link-card--popular {
     width: 90%;
@@ -366,6 +366,7 @@ main {
 .card-body {
     text-align: start;
     margin-bottom: 15px;
+    height: 30%;
 }
 .card-body strong:hover {
  color:red;
@@ -390,10 +391,10 @@ main {
     margin-bottom: 0;
 }
 .img-second--popular {
-    width:70%;
+    width:50%;
 }
 .img-first {
-    background-image:url('/src/image/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg') ;
+    background-image:url('/src/image/hebergements/2_large/marcus-loke-WQJvWU_HZFo-unsplash.jpg');
 }
 
 .img-second {
@@ -442,6 +443,7 @@ main {
 }
 
 .card-text-popular-contain {
+    width: 75%;
     height: 100%;
     margin-left: 10px;
     margin-bottom: 0;
@@ -572,10 +574,91 @@ figcaption {
 /***************   Media queries   **********************/
 
 
-/* @media screen and (min-width:768px) and (max-width:992px){
+@media screen and (min-width:768px) and (max-width:992px){
+
+/**********  header  ***************/
+    .list-header li {
+       padding-top: 10px;
+    }
+    .list-header li:hover {
+        border-top: 1px solid #0065FC;
+        border-left: 1px solid #0065FC;
+        border-bottom: none;
+    }
+
+/**********  first section  ***************/
+
+    .title {
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .title h1 {
+        width: 100%;
+        font-size: 22px;
+    }
+
+    form {
+        display:flex;
+        width: 95%;
+        margin: 0 auto;
+        margin-top: 20px;
+        padding-bottom: 10px;
+        border: 1px solid #F2F2F2;
+        border-radius: 20px 20px 20px 20px;
+        box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.151);
+    }
+
+    .search-contain {
+        width: 40%;
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 20px;
+    }
+    .div-search {
+        left: 5%;
+    }
+    .search {
+        width: 190px;
+    }
+    .btn-hidden {
+        right: 5%;
+    }
+
+    fieldset {
+        width: 50%;
+        margin-top: 0px;
+        justify-content: center;
+        align-self:center;
+
+    }
+    .fieldset-filter--first {
+        width: 70px;
+        padding-top: 12px;
+    }
+    .fieldset-filter--second {
+        width: 300px;
+    }
+    .fieldset-filter--third {
+        flex-direction: row;
+        width:400px;
+        margin-left: 20px;
+        justify-content: flex-end;
+
+    }
+
+
+/**********  Main  ***************/
+    .breakpoint {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
 
 }
-*/
+
 @media  screen and (min-width:992px) {
 
 
@@ -589,46 +672,44 @@ figcaption {
         flex-direction: row;
         justify-content: space-between;
         margin-bottom: 5px;
+        width: 85%;
+        margin: 0 auto;
     }
 
     .div-logo  {
         padding:5px;
-        padding-top: 20px;
+        padding-top: 50px;
         text-align: start;
         margin: 0;
         width: 30%;
+        margin-left: 35px;
     }
 
     #logo {
-        margin-left: 35px;
-        height: 45px;
         text-align: start;
     }
     nav {
         display: flex;
         justify-content: flex-end;
-        width: 50%;
+        width: 40%;
         margin-top: 0;
     }
 
     .list-header {
-        align-items: center;
-        width: 30%;
+        justify-content: flex-end;
     }
     .list-header li {
-        width: 100%;
+        width: 35%;
         padding-top: 50px;
         padding-bottom: 0px;
-        text-align: end;
+
     }
     .list-header li {
-        padding-top: 50px;
+        padding-top: 60px;
         border-bottom: none;
     }
-
     .list-header li:nth-child(2) {
-        margin-right: 5px;
-        padding-right: 10px;
+        width: 25%;
     }
     .list-header li:hover {
         border-top: 1px solid #0065FC;
@@ -645,7 +726,11 @@ figcaption {
         height: auto;
         padding-left: 10px;
     }
+    .title {
+        text-align: left;
+    }
     .title h1 {
+        width: 100%;
         font-size: 24px;
         padding:10px;
     }
@@ -679,21 +764,31 @@ figcaption {
 
     }
     .fieldset-filter--first {
-        width: 5%;
+        width: 80px;
 
     }
     .fieldset-filter--second {
-        width: 18%;
+        width: 280px;
     }
     .fieldset-filter--third {
         flex-direction: row;
-        width:20%;
+        width:350px;
     }
     .fieldset-filter--second  select,
     .fieldset-filter--second .wrapper,
     .fieldset-filter--third .wrapper,
     .fieldset-filter--third select {
         margin-top: 0px;
+    }
+
+    #family {
+        width: 120px;
+    }
+    #genre {
+        width: 150px;
+    }
+    #pets {
+        width: 190px;
     }
 
 
@@ -723,6 +818,10 @@ figcaption {
     .top {
         width: 30%;
         margin-left: 20px;
+    }
+
+    .breakpoint {
+        flex-direction: column;
     }
 
     .div-card {
@@ -774,7 +873,7 @@ figcaption {
 
     .img-popular {
         width: 40%;
-        height: 160px;
+        height: 100%;
         border-radius: 20px 0px 0px 20px;
         margin-bottom: 0;
     }
@@ -787,7 +886,6 @@ figcaption {
     }
 
     .card-text-popular-contain {
-        width: 300px;
         height: 100%;
         margin-left: 10px;
         margin-bottom: 0;
