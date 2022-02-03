@@ -37,10 +37,6 @@ h2{
     font-size: 20px;
 }
 
-.contain {
-    width: 100%;
-    height: auto;
-}
 
 /****************** header *****************/
 header {
@@ -84,6 +80,14 @@ nav {
 .link-header:hover {
     color:#0065FC;
 }
+
+/*************** contain section and main ************************/
+
+.contain {
+    width: 100%;
+    height: auto;
+}
+
 
 
 
@@ -134,12 +138,16 @@ form {
     position: absolute;
     padding-top: 12px;
 }
+.btn-search,
+.btn-i {
+    color: white;
+}
+
 .btn-search {
     visibility: hidden;
 }
 .btn-i {
     border-radius: 10px;
-    color: white;
     visibility: visible;
 }
 
@@ -285,9 +293,7 @@ main {
     height: auto;
     display: flex;
     flex-direction:column-reverse;
-    margin: 0 auto;
-    margin-top: 20px;
-    margin-bottom: 5px;
+    margin: 20px auto 5px;
 }
 
 .house,
@@ -334,19 +340,16 @@ main {
 .link-card {
     height: auto;
     width: 90%;
-    margin: 0 auto;
-    margin-bottom: 50px;
+    margin: 0 auto 50px;
     background-color: white;
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 20px;
     padding: 5px;
     box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.151);
     overflow: hidden;
 }
 .link-card--popular {
     width: 90%;
-    margin: 0 auto;
-    margin-top: 20px;
-    margin-bottom: 0;
+    margin: 20px auto 0;
 }
 
 .popular-contain-card {
@@ -437,9 +440,7 @@ main {
 
 .card-text {
     padding: 2px;
-    margin-left:10px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin: 5px 0 5px 10px;
     font-size: 16px;
 }
 
@@ -512,7 +513,7 @@ main {
 
 .figure-activity {
     background-color: whitesmoke;
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 20px;
     box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.151);
     width: 90%;
     height:95%;
@@ -682,18 +683,14 @@ figcaption {
 @media  screen and (min-width:992px) {
 
 
-    .contain {
-        margin-top: 0;
-        width: 80%;
-        margin: 0 auto;
-    }
-    /****************** header *****************/
+
+/****************** header *****************/
     header {
         flex-direction: row;
         justify-content: space-between;
         width: 80%;
         height: 100px;
-        margin:  0 auto 5px auto ;
+        margin:  0 auto 5px;
     }
 
     .div-logo  {
@@ -721,9 +718,8 @@ figcaption {
         border-top: 1px solid white;
         padding-top: 40px;
         border-bottom: none;
-        border: 1px solid black;
     }
- 
+
     .list-header li:nth-child(2) {
         width: 110px;
     }
@@ -737,7 +733,15 @@ figcaption {
     }
 
 
-    /**************** First section ***************/
+/*************** contain section and main ************************/
+
+    .contain {
+        margin-top: 0;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+/**************** First section ***************/
     .first {
         height: auto;
         padding-left: 10px;
@@ -767,7 +771,6 @@ figcaption {
     }
 
     .btn-search {
-        color: white;
         font-weight: bold;
         visibility: visible;
     }
@@ -788,7 +791,7 @@ figcaption {
 
     }
     .fieldset-filter--second {
-        width: 280px;
+        width: 290px;
     }
     .fieldset-filter--third {
         flex-direction: row;
@@ -800,7 +803,8 @@ figcaption {
     .fieldset-filter--third select {
         margin-top: 0px;
     }
-    #genre {
+    #genre,
+    #economy {
         width: 150px;
     }
     #family {
@@ -812,7 +816,7 @@ figcaption {
         font-size: 16px;
     }
 
-    /**************** Main ***************/
+/**************** Main ***************/
     main {
         flex-direction: row;
     }
@@ -894,17 +898,16 @@ figcaption {
     }
 
     .card-text {
-        font-size: initial;
+        font-size: normal;
     }
 
-    .card-text-popular-contain {
+    /* .card-text-popular-contain {
         height: 100%;
         margin-left: 10px;
         margin-bottom: 0;
-    }
+    } */
     .card-text--popular {
         width: 90%;
-        margin-bottom: 50px;
     }
     .card-text-popular-contain h4 {
         width: 60%;
@@ -916,7 +919,7 @@ figcaption {
         width: 70%;
     }
 
-    /**************** Second section ***************/
+/**************** Second section ***************/
     .second {
         height: 520px;
     }
@@ -964,9 +967,9 @@ figcaption {
         margin: 0;
     }
 
-    .figure-activity--first {
+    /* .figure-activity--first {
         height: 100%;
-    }
+    } */
 
     .figure-activity--second {
         width: 100%;
@@ -975,10 +978,8 @@ figcaption {
 
     .activity--second-FigureFirst {
         height: 53%;
-
     }
 
- 
     .img-activity {
         height: 88%;
         position:absolute;
@@ -1001,7 +1002,7 @@ figcaption {
     }
 
 
-    /************* footer  ******************/
+/************* footer  ******************/
     footer {
         width: 85%;
         margin-top: 50px;
