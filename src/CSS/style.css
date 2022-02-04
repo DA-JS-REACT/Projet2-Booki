@@ -17,6 +17,7 @@ color: #F2F2F2;   fond gris
 
 body  {
     font-family: 'Raleway', sans-serif;
+    overflow-x: hidden;
 }
 
 
@@ -683,7 +684,6 @@ figcaption {
 @media  screen and (min-width:992px) {
 
 
-
 /****************** header *****************/
     header {
         flex-direction: row;
@@ -872,7 +872,8 @@ figcaption {
         text-align: start;
     }
     .card h4 {
-        font-size: large;
+        font-size: normal;
+        width:92%;
     }
     .card-popular {
         height: 100%;
