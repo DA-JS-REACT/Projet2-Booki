@@ -209,6 +209,7 @@ fieldset {
     display: flex;
     flex-direction: row;
     width: 290px;
+    margin-right: 20px;
 }
 .fieldset-filter--third {
     display: flex;
@@ -235,26 +236,36 @@ fieldset h3 {
     background-color: white;
     width: 140px;
     height: 40px;
-    text-align: end;
     padding:2px ;
     margin-right: 10px;
-    padding-right: 10px;
+    padding-left: 50px;
     position: relative;
     cursor: pointer;
     z-index: 5;
     font-weight: bold;
 }
+
+.select-custom:hover {
+   background-color: #deebff6b;
+   box-shadow:1px 1px 1px #d3d3d3a8;
+}
 #economy,
 #genre {
-    width: 10px;
+    width: 160px;
+}
+#genre {
+    text-align: center;
+    padding-right: 5px;
 }
 
 #family {
-    width: 120px;
+    width: 130px;
+    padding-right: 5px;
 }
 #pets {
-    width: 190px;
+    width: 200px;
 }
+
 
 .filter,
 .search-contain {
@@ -266,10 +277,10 @@ fieldset h3 {
     z-index: 11;
     background-color: #DEEBFF;
     border-radius: 50px ;
-    height: 39px;
+    height: 40px;
     width: 40px;
-    left:0%;
-    top:2%;
+    left:-0.50%;
+    top:0%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -768,7 +779,6 @@ footer {
     #economy,
     #genre {
     width: 160px;
-    padding-left: 30px;
     }
     #family {
         width: 130px;
@@ -1112,12 +1122,8 @@ footer {
         margin-top: 15px;
     }
 
-    #economy,
     #genre {
-    width: 140px;
-    }
-    #family {
-        width: 110px;
+    width: 150px;
     }
 
     .filter,
