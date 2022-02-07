@@ -768,6 +768,8 @@ footer {
     #economy,
     #genre {
     width: 140px;
+    padding-left: 20px;
+    text-align: end;
     }
     #family {
         width: 110px;
