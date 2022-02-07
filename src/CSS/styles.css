@@ -246,7 +246,7 @@ fieldset h3 {
 }
 #economy,
 #genre {
-    width: 150px;
+    width: 10px;
 }
 
 #family {
@@ -767,12 +767,11 @@ footer {
 
     #economy,
     #genre {
-    width: 140px;
-    padding-left: 20px;
-    text-align: end;
+    width: 160px;
+    padding-left: 30px;
     }
     #family {
-        width: 110px;
+        width: 130px;
     }
 
     .filter,
