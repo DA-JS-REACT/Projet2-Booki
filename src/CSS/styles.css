@@ -433,42 +433,42 @@ main {
 }
 
 .img-first {
-    background-image:url('/src/image/hebergements/2_large/marcus-loke-WQJvWU_HZFo-unsplash.jpg');
+    background-image:url('../image/hebergements/2_large/marcus-loke-WQJvWU_HZFo-unsplash.jpg');
 }
 
 .img-second {
-    background-image:url('/src/image/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg') ;
+    background-image:url('../image/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg') ;
     background-position: center;
 }
 
 .img-third {
-    background-image:url('/src/image/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg') ;
+    background-image:url('../image/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg') ;
     background-position: center;
 }
 
 .img-fourth {
-    background-image:url('/src/image/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg') ;
+    background-image:url('../image/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg') ;
     background-position: center;
 }
 
 .img-fifth {
-    background-image:url('/src/image/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg') ;
+    background-image:url('../image/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg') ;
     background-position: center;
 }
 
 .img-sixth {
-    background-image:url('/src/image/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg') ;
+    background-image:url('../image/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg') ;
     background-position: center;
 }
 
 .img-first--popular {
-    background-image:url('/src/image/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg') ;
+    background-image:url('../image/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg') ;
 }
 .img-second--popular {
-    background-image:url('/src/image/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg') ;
+    background-image:url('../image/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg') ;
 }
 .img-third--popular {
-    background-image:url('/src/image/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg') ;
+    background-image:url('../image/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg') ;
     background-position: center;
 }
 
