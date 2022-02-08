@@ -239,7 +239,7 @@ fieldset h3 {
     height: 40px;
     padding:2px ;
     margin-right: 10px;
-    padding-left: 50px;
+    padding-left: 45px;
     position: relative;
     cursor: pointer;
     z-index: 5;
@@ -252,7 +252,7 @@ fieldset h3 {
 }
 #economy,
 #genre {
-    width: 160px;
+    width: 155px;
 }
 #genre {
     text-align: center;
@@ -265,6 +265,7 @@ fieldset h3 {
 }
 #pets {
     width: 200px;
+    text-align: center;
 }
 
 
@@ -339,6 +340,7 @@ main {
     display: flex;
     flex-direction: column;
     margin-right: 5px;
+    padding-bottom: 40px;
 }
 .breakpoint {
     width: 100%;
@@ -365,8 +367,11 @@ main {
 .div-card--more {
     padding: 5px;
     margin-left: 20px;
+}
+.title-card {
     margin-top: 10px;
 }
+
 
 .div-card--more {
     font-size: larger;
@@ -377,7 +382,7 @@ main {
 .link-card {
     width: 30%;
     height: auto;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     background-color: white;
     border-radius: 20px;
     padding: 5px;
@@ -441,7 +446,7 @@ main {
     margin-bottom: 0;
 }
 .img-second--popular {
-    width:50%;
+    width:40%;
 }
 
 .img-first {
@@ -494,12 +499,11 @@ main {
 .card-text-popular-contain {
     width: 75%;
     height: 100%;
-    margin-left: 10px;
-    margin-bottom: 0;
+    margin: 5px 0 0 10px;
 }
 .card-text--popular {
     width: 90%;
-    margin-bottom: 50px;
+    margin-bottom: 45px;
 }
 .card-text-popular-contain h4 {
     width: 60%;
@@ -508,7 +512,7 @@ main {
     width: 60%;
 }
 .card-text--last h4 {
-    width: 70%;
+    width: 60%;
 }
 .popular-title {
     width: 100%;
@@ -792,6 +796,10 @@ footer {
     .search-contain {
         position: relative;
     }
+    .info {
+        margin-bottom: 30px;
+        margin-left: 1px;
+    }
     #span-custom {
         font-size: 14px;
     }
@@ -799,7 +807,7 @@ footer {
 /**************** Main ***************/
     main {
         flex-direction:column-reverse;
-        margin: 20px auto 5px;
+        margin: 20px auto 15px;
     }
 
     .house,
@@ -817,34 +825,35 @@ footer {
         background-color: white;
     }
 
-
+    .top {
+        padding-bottom: 40px;
+    }
 
     .div-card {
         flex-direction: column;
-        padding: 0px 0 15px;
     }
 
-    .title-card ,
-    .div-card--more {
+    .title-card  {
         margin-left: 15px;
     }
 
     .div-card--more {
-        margin-left: 0;
+        margin-left: 1px;
         padding: 0;
     }
 
     .link-card {
         width: 90%;
-        margin: 0 auto 50px;
+        margin: 0 auto 20px;
     }
     .link-card--popular {
         width: 90%;
-        margin: 20px auto 0;
+        height: auto;
+        margin: 20px auto 5px;
+
     }
 
     .popular-contain-card {
-
         flex-direction: column;
     }
     .card-popular {
@@ -870,7 +879,7 @@ footer {
         width: 75%;
         height: 100%;
         margin-left: 10px;
-        margin-bottom: 0;
+        margin-top: 0;
     }
     .card-text--popular {
         margin-bottom:50px;
@@ -888,7 +897,7 @@ footer {
      .second {
         height: 100%;
         width: 100%;
-        margin-bottom: 5px;
+        margin-bottom: 20px;
     }
     .contain-activity {
         height: 100%;
@@ -925,7 +934,7 @@ footer {
     }
     .title-card--activity {
         padding-left: 0;
-        margin-left: 0;
+        margin-left: 1px;
     }
 
     .figure-activity {
@@ -962,7 +971,7 @@ footer {
 /************* footer  ******************/
     footer {
         width: 100%;
-        margin: 0 0 10px;
+        margin: 50px 0 10px;
         flex-direction: column;
         overflow: hidden;
     }
@@ -1129,7 +1138,15 @@ footer {
     }
 
     #genre {
-    width: 150px;
+    width: 145px;
+    }
+    #pets {
+        width: 190px;
+    }
+    #family {
+        width: 125px;
+        padding-right: 0;
+        text-align: center;
     }
 
     .filter,
@@ -1140,7 +1157,6 @@ footer {
         font-size: 14px;
     }
     .info {
-        margin-top: 10px;
         padding-left: 20px;
     }
 
@@ -1161,12 +1177,13 @@ footer {
        }
     .house {
         width: 100%;
-        margin-top: 15px;
+        margin-top: 20px;
         margin-right: 0;
         background-color: white;
     }
     .top {
         border-radius: 20px;
+        padding-bottom: 30px;
     }
     .breakpoint {
         width: 100%;
@@ -1177,16 +1194,15 @@ footer {
 
     .div-card {
         flex-direction: column;
-        padding: 0px 0 15px;
     }
 
-    .title-card ,
-    .div-card--more {
+    .title-card {
         margin-left: 15px;
     }
 
     .div-card--more {
-        margin-left: 0;
+        margin-left: 1px;
+        margin-top: 0;
         padding: 0;
     }
 
@@ -1196,7 +1212,8 @@ footer {
     }
     .link-card--popular {
         width: 70%;
-        margin: 20px auto 0;
+        height: auto;
+        margin: 20px auto 5px;
     }
 
     .popular-contain-card {
@@ -1225,7 +1242,7 @@ footer {
     }
 
     .card-text-popular-contain {
-        width: 75%;
+        width: 70%;
         height: 100%;
         margin-left: 10px;
         margin-bottom: 0;
@@ -1235,7 +1252,7 @@ footer {
         font-size: 15px;
     }
     .card-text-popular-contain h4 {
-        width: 80%;
+        width: 100%;
     }
     .icon-aside i {
         padding-right: 20px;
@@ -1247,7 +1264,7 @@ footer {
     .second {
         height: 100%;
         width: 100%;
-        margin-bottom: 5px;
+        margin-bottom: 15px;
     }
     .contain-activity {
         height: 100%;
@@ -1283,8 +1300,7 @@ footer {
          padding-left: 0px;
     }
     .title-card--activity {
-        padding-left: 0;
-        margin-left: 0;
+        margin-left: 1px;
     }
 
     .figure-activity {
