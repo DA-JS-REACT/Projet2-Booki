@@ -589,16 +589,14 @@ main {
     background-color: whitesmoke;
     border-radius: 20px;
     box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.151);
-    position: relative;
     overflow: hidden;
 }
-
-.figure-activity--first {
+figure {
     height: 100%;
+    position: relative;
 }
 
 .figure-activity--second {
-    width: 100%;
     height: 40%;
 }
 .activity--second-FigureFirst {
