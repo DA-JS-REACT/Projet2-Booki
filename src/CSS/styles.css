@@ -45,7 +45,7 @@ h2{
 
 /*************** Header ***************/
 header {
-    width: 80%;
+    width: 95%;
     height: 100px;
     display: flex;
     flex-direction: row;
@@ -55,7 +55,7 @@ header {
 .div-logo  {
     width: 30%;
     padding: 25px 5px 5px 5px;
-    margin: 0 0 0 10px;
+    margin: 0 0 0 0px;
 }
 
 #logo {
@@ -100,7 +100,7 @@ nav {
 
 /*********  contain section and main ******************/
 .contain {
-    width: 80%;
+    width: 95%;
     margin: 0 auto;
 }
 
@@ -633,7 +633,7 @@ figcaption {
 /**************** Footer ***************/
 footer {
     background-color: #F2F2F2;
-    width: 85%;
+    width: 100%;
     height: auto;
     display: flex;
     flex-direction: row;
